@@ -3,15 +3,15 @@
 	"id": "dcdaetools",
 	"version": "${version}",
 	"name": "Dcdae Tools",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Это мод для n`th production. Всего лишь тестовая версия, ничего особенного.",
 	"authors": [
-		"Me!"
+		"dscrmnnt"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/dcdaetools/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"dcdae.dcdaetools.DcdaeToolsDataGenerator"
+		],
+		"client": [
+			"dcdae.dcdaetools.DcdaeToolsClient"
 		]
 	},
 	"mixins": [
