@@ -1,5 +1,6 @@
 package dcdae.dcdaetools;
 
+import dcdae.dcdaetools.block.ModBlocks;
 import dcdae.dcdaetools.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,5 +14,6 @@ public class DcdaeTools implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.register();
+		ModBlocks.register();
 	}
 }

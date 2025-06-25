@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "dcdaetools:block/ruby_block"
+    }
+  }
+}
