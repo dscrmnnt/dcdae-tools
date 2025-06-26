@@ -4,6 +4,7 @@ import dcdae.dcdaetools.DcdaeTools;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.MapColor;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -18,8 +19,9 @@ public class ModBlocks {
 
 
     public static final Block RUBY_BLOCK = registerBlock("ruby_block",
-            AbstractBlock.Settings.create().strength(4f)
-                    .requiresTool().sounds(BlockSoundGroup.METAL));
+            AbstractBlock.Settings.create().strength(5.0f, 6.0f)
+                    .requiresTool().sounds(BlockSoundGroup.METAL)
+                    .mapColor(MapColor.BRIGHT_RED));
 
 
 
